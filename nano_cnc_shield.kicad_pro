@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.1,
-          "height": 2.1,
-          "width": 2.1
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,32 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|58238026|66433490|9033bddd-19c8-416e-b88b-4132c49a1bb7|dd61e9e8-02bd-4f94-ace1-0e92697885ba",
+          "capacitor X"
+        ],
+        [
+          "courtyards_overlap|81098026|66433490|1d7be44b-9492-4f32-921c-422cc93cbafb|80278299-b066-40b3-a7c6-5fb0cd45c69d",
+          "capacitor Y"
+        ],
+        [
+          "pth_inside_courtyard|57000000|70650000|55faf94b-3fe7-4083-86de-a14516f0f564|dd61e9e8-02bd-4f94-ace1-0e92697885ba",
+          "capacitor X"
+        ],
+        [
+          "pth_inside_courtyard|60500000|70650000|e652e77d-97fd-45f0-9182-45d3e94b8547|dd61e9e8-02bd-4f94-ace1-0e92697885ba",
+          "capacitor X"
+        ],
+        [
+          "pth_inside_courtyard|79860000|70650000|317ab115-80f0-450c-9c7f-bb809579bb67|80278299-b066-40b3-a7c6-5fb0cd45c69d",
+          "capacitor Y"
+        ],
+        [
+          "pth_inside_courtyard|83360000|70650000|86a70258-9fc8-451e-ac31-68889d57dde5|80278299-b066-40b3-a7c6-5fb0cd45c69d",
+          "capacitor Y"
+        ]
+      ],
       "meta": {
         "version": 2
       },
