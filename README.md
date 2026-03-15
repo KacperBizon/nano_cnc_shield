@@ -1,19 +1,11 @@
-\# Arduino Nano CNC shield
+# Arduino Nano CNC shield
+![pcb image](https://github.com/KacperBizon/nano\_cnc\_shield/blob/main/shield.jpg)
 
-!\[pcb image](https://github.com/KacperBizon/nano\_cnc\_shield/blob/main/shield.jpg)
+### How to use
+- Install [LaserGRBL](https://github.com/arkypita/LaserGRBL/releases)
+- Upload [GRBL](https://github.com/gnea/grbl) code to Arduino 
 
-
-
-\### How to use
-
-\- Install \[LaserGRBL](https://github.com/arkypita/LaserGRBL/releases)
-
-\- Upload \[GRBL](https://github.com/gnea/grbl) code to Arduino 
-
-
-
-\### Components
-
+### Components
 * Arduino Nano
 * 2x A4988 Stepper motor drivers
 * 1x IRFZ44N N-CHANNEL MOSFET
@@ -25,11 +17,5 @@
 * 1x 2.5mm JST XH-Style 2pin male connector
 * male and female header pins
 
-
-
-\### Acknowledgments
-
-The project is based on \[DIY-Mini-CNC-Laser-Engraver](https://www.instructables.com/DIY-Mini-CNC-Laser-Engraver/)
-
-
-
+### Acknowledgments
+The project is based on [DIY-Mini-CNC-Laser-Engraver](https://www.instructables.com/DIY-Mini-CNC-Laser-Engraver/)
